@@ -3,6 +3,22 @@
   scroll-behavior: smooth;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* Navigation style start */
 header {
   position: fixed;
@@ -41,10 +57,6 @@ nav ul li a:hover {
 
 /* Home section start */
 .home-section-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   background-image: url('https://via.placeholder.com/1920x1080');
   background-attachment: fixed;
 }
@@ -71,12 +83,8 @@ nav ul li a:hover {
 
 /* About me section start */
 .about-me-section-wrapper {
-  height: 100vh;
   background-color: cyan;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .skills-wrapper {
@@ -114,3 +122,58 @@ nav ul li a:hover {
 .about-me div {
   padding: 20px;
 }
+/* About me section end */
+
+/* Projects section start*/
+.projects-wrapper {
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-wrapper {
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+  height: 300px;
+  background-image: url('https://via.placeholder.com/300x300');
+}
+
+.project-title {
+  font-size: 1.4em;
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+.project-description {
+  font-size: 1.1em;
+}
+/* Projects section end*/
+
+/* Footer start */
+footer {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+.contact-wrapper {
+  width: 300px;
+}
+
+.contact-wrapper span {
+  display: block;
+  margin: 20px;
+  font-size: 1.3em;
+}
+
+.social-wrapper span i {
+  font-size: 3em;
+  margin: 15px;
+}
+/* Footer end */
