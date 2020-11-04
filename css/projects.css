@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.posts-wrapper {
+    width: 900px;
+    margin: 90px;
+}
+
+.post-wrapper {
+    height: 400px;
+    margin: 60px;
+    display: flex;
+    background-color: cyan;
+}
+
+.post-text-wrapper {
+    padding: 25px;
+}
+
+.project-title {
+    margin: 25px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.project-short-description {
+    margin-top: 25px;
+    font-size: 1.2em;
+}
