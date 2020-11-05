@@ -12,6 +12,7 @@ main {
     height: 400px;
     margin: 60px;
     display: flex;
+    box-shadow: 0 0 10px grey;
     background-color: cyan;
 }
 

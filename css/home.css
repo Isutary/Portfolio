@@ -12,15 +12,22 @@
 }
 
 .home-wrapper span {
-  color: white;
+  color: darkcyan;
   font-weight: bold;
   font-size: 1em;
 }
 
 .home-wrapper a {
   letter-spacing: normal;
+  box-shadow: 0 0 10px grey;
+  background-color: cyan;
+  border-radius: 5px;
   padding: 10px;
-  font-size: 0.6em;
+  font-size: 0.5em;
+}
+
+.home-wrapper a:hover {
+  background-color: darkcyan;
 }
 /* Home section end */
 
@@ -78,9 +85,15 @@
 .project-wrapper {
   margin: 20px;
   width: 300px;
+  box-shadow: 0 0 10px grey;
   text-align: center;
   height: 300px;
   background-image: url('https://via.placeholder.com/300x300');
+  transition: all 500ms;
+}
+
+.project-wrapper:hover {
+  transform: scale(1.1);
 }
 
 .project-title {

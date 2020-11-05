@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 90px 0;
+    box-shadow: 0 0 10px grey;
+    background-color: cyan;
+}
+
+.project-title {
+    font-size: 3em;
+    text-align: center;
+}
+
+.project-description {
+    padding: 20px;
+}
+
+.github-wrapper i {
+    font-size: 3em;
+    padding: 0 40px 30px; 
+}
