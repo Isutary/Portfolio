@@ -25,6 +25,7 @@
     </header>
     <main>
         <div class="contact-me-wrapper">
+            <span class="contact"> Contact </span>
             <form>
                 <div class="input-wrapper">
                     <label id="firstNameLabel" for="firstName"> First name </label>
@@ -45,6 +46,9 @@
                 <div class="input-wrapper">
                     <label id="messageLabel" for="message"> Message </label>
                     <textarea id="message" rows="10" onfocus="focusHandler('messageLabel')" onblur="blurHandler(this, 'messageLabel')"></textarea>
+                </div>
+                <div class="input-wrapper">
+                    <input type="submit" value="Send">
                 </div>
             </form>
         </div>
