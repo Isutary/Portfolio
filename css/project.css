@@ -4,8 +4,6 @@ main {
     align-items: center;
 }
 .project-wrapper {
-    display: flex;
-    flex-direction: column;
     width: 900px;
     margin: 90px 0;
     box-shadow: 0 0 10px grey;
@@ -19,9 +17,9 @@ main {
 
 .project-description {
     padding: 20px;
+    text-align: justify;
 }
 
 .github-wrapper i {
     font-size: 3em;
-    padding: 0 40px 30px; 
 }

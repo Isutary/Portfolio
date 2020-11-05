@@ -5,7 +5,7 @@ main {
 }
 .posts-wrapper {
     width: 900px;
-    margin: 90px;
+    margin: 90px 0;
 }
 
 .post-wrapper {
