@@ -24,6 +24,7 @@ nav a:hover {
 }
 
 a.active {
+    color: white;
     background-color: darkcyan;
 }
 /* Navigation style start */

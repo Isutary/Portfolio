@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-section-wrapper {
+    width: 900px;
+    background-color: cyan;
+    flex-direction: column;
+    height: auto;
+    margin: 120px 0 80px;
+    box-shadow: 0 0 10px grey;
+}
+
+.image-wrapper {
+    display: inline-block;
+}
+
+.gallery-image-wrapper {
+    padding: 5px 2px;
+    display: inline-block;
+}
+
+.content-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+aside {
+    min-width: 200px;
+    padding: 20px;
+}
+
+article {
+    padding: 60px 40px;
+    text-align: justify;
+    flex: auto;
+}

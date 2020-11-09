@@ -1,3 +1,46 @@
-#blog-one {
+.blog-section-wrapper {
   background-image: url('https://via.placeholder.com/1920x1080');
+  background-attachment: fixed;
+}
+
+.blog-wrapper {
+  height: 300px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  width: 600px;
+  font-size: 4em;
+}
+
+.blog-title {
+  display: block;
+  font-size: inherit;
+}
+
+.blog-description {
+  display: block;
+  letter-spacing: normal;
+}
+
+.blog-wrapper a {
+  letter-spacing: normal;
+  box-shadow: 0 0 10px grey;
+  background-color: cyan;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.5em;
+  transition: all 500ms;
+}
+
+.blog-wrapper a:hover {
+  background-color: darkcyan;
+}
+
+.blog-background-color {
+  background-color: cyan;
+}
+
+#blog-two {
+  background-color: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 10px grey;
+  padding: 10px;
 }
