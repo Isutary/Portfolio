@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../css/blog.css">
     <link rel="icon" type="image/png" href="../image/favicon.ico"/>
     <script src="https://kit.fontawesome.com/7743dfa197.js" crossorigin="anonymous"></script>
+    <script src="../js/blog.js"></script>
     <title> Library - Edib Supic </title>
 </head>
 <body>
@@ -26,30 +27,57 @@
         <section class="blog-section-wrapper">
             <div class="images-wrapper">
                 <div class="image-wrapper">
-                    <img src="https://via.placeholder.com/900x600">
+                    <img id="mainImage" src="https://via.placeholder.com/900x600">
                 </div>
                 <div class="gallery-wrapper">
                     <div class="gallery-image-wrapper">
-                        <img src="https://via.placeholder.com/100x100">
+                        <img id="image1" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
                     </div>
                     <div class="gallery-image-wrapper">
-                        <img src="https://via.placeholder.com/100x100">
+                        <img id="image2" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
                     </div>
                     <div class="gallery-image-wrapper">
-                        <img src="https://via.placeholder.com/100x100">
+                        <img id="image3" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image4" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image5" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image6" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image7" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image8" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image9" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image10" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image11" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
+                    </div>
+                    <div class="gallery-image-wrapper">
+                        <img id="image12" src="https://via.placeholder.com/100x100" onclick="changeImage(this)">
                     </div>
                 </div>
             </div>
             <div class="content-wrapper">
                 <aside>
-                    <ul>
-                        <li> Link one </li>
-                        <li> Link two </li>
-                        <li> Link three </li>
+                    <ul aria-label="Navigation">
+                        <a href="#partOne"> <li> Link one </li> </a>
+                        <a href="#partTwo"> <li> Link two </li> </a>
+                        <a href="#partThree"> <li> Link three </li> </a>
                     </ul>
                 </aside>
                 <article>
-                    <span> Lorem Ipsum </span>
+                    <span id="partOne"> Lorem Ipsum </span>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et mi id dolor varius faucibus. Donec pellentesque erat
                         quis pretium gravida. Quisque ullamcorper id tellus id egestas. Morbi accumsan malesuada metus. Lorem ipsum dolor sit
@@ -59,7 +87,7 @@
                         dictum nunc, eu sodales elit erat tristique magna. In tincidunt mauris facilisis nunc volutpat, sodales sollicitudin
                         augue porta. Aenean in nisi quam. Maecenas at nisl pulvinar, placerat est id, auctor leo.
                     </p>
-                    <span> Lorem Ipsum </span>
+                    <span id="partTwo"> Lorem Ipsum </span>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et mi id dolor varius faucibus. Donec pellentesque erat
                         quis pretium gravida. Quisque ullamcorper id tellus id egestas. Morbi accumsan malesuada metus. Lorem ipsum dolor sit
@@ -69,7 +97,7 @@
                         dictum nunc, eu sodales elit erat tristique magna. In tincidunt mauris facilisis nunc volutpat, sodales sollicitudin
                         augue porta. Aenean in nisi quam. Maecenas at nisl pulvinar, placerat est id, auctor leo.
                     </p>
-                    <span> Lorem Ipsum </span>
+                    <span id="partThree"> Lorem Ipsum </span>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et mi id dolor varius faucibus. Donec pellentesque erat
                         quis pretium gravida. Quisque ullamcorper id tellus id egestas. Morbi accumsan malesuada metus. Lorem ipsum dolor sit
