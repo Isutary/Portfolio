@@ -1,24 +1,26 @@
 /* Home section start */
 .home-section-wrapper {
-  background-image: url('https://via.placeholder.com/1920x1080');
+  background-image: url('../image/home/home_background.png');
   background-attachment: fixed;
 }
 
 .home-wrapper {
   height: 300px;
   text-align: center;
+  color: white;
   letter-spacing: 0.2em;
   font-size: 4em;
 }
 
 .home-wrapper span {
-  color: darkcyan;
+  color: cyan;
   font-weight: bold;
   font-size: 1em;
 }
 
 .home-wrapper a {
   letter-spacing: normal;
+  color: black;
   box-shadow: 0 0 10px grey;
   background-color: cyan;
   border-radius: 5px;
@@ -86,11 +88,29 @@
 .project-wrapper {
   margin: 20px;
   width: 300px;
+  color: white;
   box-shadow: 0 0 10px grey;
+  padding: 10px;
   text-align: center;
   height: 300px;
-  background-image: url('https://via.placeholder.com/300x300');
   transition: all 500ms;
+}
+
+.project1-background {
+  background-image: url('../image/home/project1.png');
+}
+
+.project2-background {
+  background-image: url('../image/home/project2.png');
+}
+
+.project3-background {
+  background-image: url('../image/home/project3.png');
+  background-position-x: -80px;
+}
+
+.project4-background {
+  background-image: url('../image/home/project4.png');
 }
 
 .project-wrapper:hover {
@@ -98,10 +118,13 @@
 }
 
 .project-title {
-  font-size: 1.4em;
   padding: 10px;
   display: block;
   font-weight: bold;
+}
+
+.project-title a {
+  font-size: 1.4em;
 }
 
 .project-description {
