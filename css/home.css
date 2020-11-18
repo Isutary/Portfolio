@@ -44,6 +44,18 @@
   display: flex;
 }
 
+.skill-wrapper {
+  position: relative;
+  top: 100px;
+  visibility: hidden;
+  transition: all 500ms;
+}
+
+.isVisibleSkill {
+  visibility: visible;
+  top: 0;
+}
+
 .skill-wrapper div {
   padding: 10px 60px;
   text-align: center;
@@ -62,8 +74,34 @@
   text-align: justify;
 }
 
+.isVisibleProfile {
+  visibility: visible!important;
+  position: relative;
+  left: 0!important;
+}
+
+.isVisibleAboutMe {
+  position: relative;
+  visibility: visible!important;
+  right: 0!important;
+}
+
 .profile-image-wrapper img{
   border-radius: 50%;
+}
+
+.profile-image-wrapper {
+  position: relative;
+  visibility: hidden;
+  left: -300px;
+  transition: all 750ms;
+}
+
+.about-me {
+  position: relative;
+  visibility: hidden;
+  right: -300px;
+  transition: all 750ms;
 }
 
 .about-me-title {
@@ -97,20 +135,20 @@
 }
 
 .project1-background {
-  background-image: url('../image/home/project1.png');
+  background-image: url('../image/projects/project1.png');
 }
 
 .project2-background {
-  background-image: url('../image/home/project2.png');
+  background-image: url('../image/projects/project2.png');
 }
 
 .project3-background {
-  background-image: url('../image/home/project3.png');
+  background-image: url('../image/projects/project3.png');
   background-position-x: -80px;
 }
 
 .project4-background {
-  background-image: url('../image/home/project4.png');
+  background-image: url('../image/projects/project4.png');
 }
 
 .project-wrapper:hover {
