@@ -17,7 +17,13 @@ main {
 }
 
 .post-text-wrapper {
+    flex: 1 1 480px;
     padding: 25px;
+}
+
+.post-image-wrapper {
+    flex: 1 1 300px;
+    overflow: hidden;
 }
 
 .project-title {
