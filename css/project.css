@@ -10,6 +10,12 @@ main {
     background-color: cyan;
 }
 
+.project-image-wrapper {
+    height: 400px;
+    width: 900px;
+    overflow: hidden;
+}
+
 .project-title {
     font-size: 3em;
     text-align: center;
