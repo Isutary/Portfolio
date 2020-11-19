@@ -26,6 +26,15 @@ main {
     text-align: justify;
 }
 
+.project-description a {
+    font-weight: bold;
+}
+
 .github-wrapper i {
     font-size: 3em;
+}
+
+.gallery-wrapper {
+    width: 600px;
+    margin: 20px auto;
 }
