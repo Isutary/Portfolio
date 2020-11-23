@@ -1,8 +1,3 @@
-.blog-section-wrapper {
-  background-image: url('https://via.placeholder.com/1920x1080');
-  background-attachment: fixed;
-}
-
 .blog-wrapper {
   height: 300px;
   text-align: center;
@@ -39,7 +34,7 @@
   background-color: cyan;
 }
 
-#blog-two {
+.blog-block {
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: 0 0 10px grey;
   padding: 10px;
