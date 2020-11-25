@@ -27,12 +27,23 @@ main {
 
 .image-wrapper {
     overflow: hidden;
-    display: inline-block;
+    display: block;
+    margin: auto;
+}
+
+#mainImage {
+  margin: auto;
+  display: block;
 }
 
 .gallery-image-wrapper {
     margin: 5px;
     display: inline-block;
+}
+
+.gallery-image-wrapper img {
+  width: 100px;
+  height: 100px;
 }
 
 .content-wrapper {
