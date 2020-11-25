@@ -137,3 +137,7 @@ p {
 table {
     width: 100%;
 }
+
+#logo {
+  background-color: white;
+}
